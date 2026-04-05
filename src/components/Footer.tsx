@@ -77,10 +77,10 @@ export default function Footer() {
                   />
                 </svg>
                 <a
-                  href="mailto:hello@yourbrandname.com"
+                  href="mailto:contact@thehandembroidery.com"
                   className="font-sans text-[#1C1C1C] text-base hover:opacity-70 transition-opacity"
                 >
-                  hello@yourbrandname.com
+                  contact@thehandembroidery.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
@@ -107,7 +107,7 @@ export default function Footer() {
                   />
                 </svg>
                 <span className="font-sans text-[#1C1C1C] text-base">
-                  Handmade with care
+                  Jawahar Nagar, Ghaziabad, 201102
                 </span>
               </li>
             </ul>

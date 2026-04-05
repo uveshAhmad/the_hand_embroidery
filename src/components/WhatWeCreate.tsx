@@ -1,11 +1,3 @@
-import img1 from "../assets/whatWeCreate/img1.svg"
-import img2 from "../assets/whatWeCreate/img2.svg"
-import img3 from "../assets/whatWeCreate/img3.svg"
-import img4 from "../assets/whatWeCreate/img4.svg"
-import img5 from "../assets/whatWeCreate/img5.svg"
-import img6 from "../assets/whatWeCreate/img6.svg"
-import img7 from "../assets/whatWeCreate/img7.svg"
-import img8 from "../assets/whatWeCreate/img8.svg"
 
 interface ServiceItem {
   id: number;
@@ -21,7 +13,7 @@ const services: ServiceItem[] = [
     id: 1,
     title: 'Custom Hand Embroidery',
     description: 'Personalized designs crafted exclusively for you.',
-    image: `${img1}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404803/img1_o5djtl.svg`,
     imageAlt: 'Custom hand embroidered patch with presidential yacht design',
     isLarge: true,
   },
@@ -29,44 +21,44 @@ const services: ServiceItem[] = [
     id: 2,
     title: 'Couture & Bridal Embroidery',
     description: 'Intricate detailing for special garments and heirloom pieces.',
-    image: `${img2}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img2_a1s8w9.svg`,
     imageAlt: 'Couture embroidered patch with university design',
     isLarge: true,
   },
   {
     id: 3,
     title: 'Butterfly Hand Embroidery',
-    image: `${img3}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404803/img3_jekb2w.svg`,
     imageAlt: 'Intricate butterfly embroidery with beads',
   },
   {
     id: 4,
     title: 'Lion Hand Embroidery',
-    image: `${img4}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404802/img4_wrskx0.svg`,
     imageAlt: 'Embroidered coat of arms with lions',
   },
   {
     id: 5,
     title: 'Hanging Hand Embroidery',
-    image: `${img5}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img5_gtenaj.svg`,
     imageAlt: 'Colorful embroidered rooster ornament',
   },
   {
     id: 6,
     title: 'Couture embellishment',
-    image: `${img6}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img6_z2qfck.svg`,
     imageAlt: 'Garment with feathers and gold embroidery',
   },
   {
     id: 7,
     title: 'Beaded motif Details',
-    image: `${img7}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img7_ka8rep.svg`,
     imageAlt: 'Beaded leaf motif with sequins',
   },
   {
     id: 8,
     title: 'Logo & Branding (Premium Finish)',
-    image: `${img8}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404802/img8_kiikik.svg`,
     imageAlt: 'Premium branding with golden cord and logo',
   },
 ];
@@ -172,15 +164,6 @@ export default function WhatWeCreate() {
           </div>
         </div>
 
-        {/* Call-to-Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-12">
-          <button className="w-full sm:w-auto rounded-[0.375rem] bg-gradient-to-r from-[#FFCB3E] to-[#FFC036] font-sans text-black text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-3 transition-all shadow-lg hover:shadow-xl hover:scale-105">
-            SEE ALL DESIGN
-          </button>
-          <button className="w-full sm:w-auto rounded-[0.375rem] border-2 border-[#1C1C1C] bg-white font-sans text-[#1C1C1C] text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-3 transition-all hover:bg-[#1C1C1C] hover:text-white">
-            START YOUR CUSTOM ORDER
-          </button>
-        </div>
       </div>
     </section>
   );

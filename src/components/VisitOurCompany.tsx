@@ -7,19 +7,19 @@ const cards = [
   {
     icon: <MapPin className={iconClass} />,
     title: 'Studio & Atelier',
-    lines: ['Mumbai, Maharashtra,', 'India'],
+    lines: ['Jawahar Nagar, Ghaziabad', 'Pin Code: 201102'],
     note: 'Visits by appointment only.',
   },
   {
     icon: <Mail className={iconClass} />,
     title: 'Email Us',
-    lines: ['hello@yourbrand.com', 'custom@yourbrand.com'],
+    lines: ['contact@thehandembroidery.com'],
     note: 'We love hearing from you.',
   },
   {
     icon: <Phone className={iconClass} />,
     title: 'Call or WhatsApp',
-    lines: ['+91 XXXXX XXXXX'],
+    lines: ['+918810561006'],
     note: 'Monday-Friday | 10 AM - 6 PM',
     noteIcon: <Clock className="w-4 h-4 text-[#555555] inline-block mr-1 align-middle" />,
   },

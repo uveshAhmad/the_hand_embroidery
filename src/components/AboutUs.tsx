@@ -1,4 +1,3 @@
-import homeAbout from '../assets/about/homeAbout.svg';
 
 export default function AboutUs() {
   return (
@@ -7,7 +6,7 @@ export default function AboutUs() {
         {/* Image */}
         <div className="rounded-xl overflow-hidden shadow-md mb-12">
           <img
-            src={homeAbout}
+            src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404915/homeAbout_o7qiom.svg"
             alt="Hand embroidery in progress — needle and thread on fabric"
             className="w-full h-auto object-cover"
           />

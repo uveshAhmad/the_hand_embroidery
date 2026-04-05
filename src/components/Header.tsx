@@ -1,7 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.svg';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +13,7 @@ export default function Header() {
           <Link to="/" className="flex items-center">
             <div className="flex items-center space-x-3">
               <img 
-                src={logo} 
+                src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404956/logo_udcqzd.svg" 
                 alt="Hand Embroidery Logo" 
                 className="w-10 h-10"
               />

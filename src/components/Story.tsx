@@ -1,4 +1,3 @@
-import storyImg from '../assets/storyImg.svg';
 
 export default function Story() {
   return (
@@ -30,7 +29,7 @@ export default function Story() {
           <div className="flex justify-center">
             <div className="shadow-2xl rounded-lg overflow-hidden">
               <img 
-                src={storyImg} 
+                src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404969/storyImg_rzim8t.svg" 
                 alt="Hand embroidery story" 
                 className="w-full h-auto"
               />

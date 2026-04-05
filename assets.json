@@ -1,0 +1,31 @@
+{
+  "about": {
+    "bp.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404914/bp_kpue37.svg",
+    "homeAbout.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404915/homeAbout_o7qiom.svg",
+    "secondAbout.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404917/secondAbout_zzewv1.svg"
+  },
+  "contactus": {
+    "homeContactus.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404893/homeContactus_eopfa1.svg"
+  },
+  "services": {
+    "home.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404870/home_bghbsq.svg"
+  },
+
+  "whatWeCreate": {
+    "img1.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404803/img1_o5djtl.svg",
+    "img2.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img2_a1s8w9.svg",
+    "img3.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404803/img3_jekb2w.svg",
+    "img4.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404802/img4_wrskx0.svg",
+    "img5.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img5_gtenaj.svg",
+    "img6.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img6_z2qfck.svg",
+    "img7.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img7_ka8rep.svg",
+    "img8.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404802/img8_kiikik.svg"
+  },
+  "herobg.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404959/herobg_okp7qa.svg",
+  "logo.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404956/logo_udcqzd.svg",
+  "processImg1.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404963/processImg1_mqbssa.svg",
+  "processImg2.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404959/processImg2_jm02fz.svg",
+  "processImg3.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404961/processImg3_u3sytt.svg",
+  "processImg4.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404965/processImg4_vfgitj.svg",
+  "storyImg.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404969/storyImg_rzim8t.svg"
+}

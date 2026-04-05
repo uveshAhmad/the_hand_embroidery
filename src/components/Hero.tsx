@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import herobg from '../assets/herobg.svg';
 
 export default function Hero() {
   return (
@@ -7,7 +6,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url(${herobg})`,
+          backgroundImage: `url(https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404959/herobg_okp7qa.svg)`,
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -24,7 +23,7 @@ export default function Hero() {
           feels personal, luxurious, and enduring.
         </p>
         <Link
-          to="/enquire-now"
+          to="/contact"
           className="inline-block rounded-[0.375rem] border-2 border-[#F6F1EA] bg-gradient-to-r from-[#FFCB3E] to-[#FFC036] font-sans text-black text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-3 transition-colors shadow-lg hover:shadow-xl"
         >
           REQUEST A CUSTOM DESIGN

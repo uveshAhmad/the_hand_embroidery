@@ -65,14 +65,6 @@ export default function WhatWeNeed() {
             ))}
           </ul>
 
-          <div className="flex flex-col sm:flex-row gap-4">
-            <button className="flex-1 rounded-[0.375rem] bg-gradient-to-r from-[#FFCB3E] to-[#FFC036] font-sans text-white text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-3 transition-all shadow-lg hover:shadow-xl hover:scale-105">
-              Upload References
-            </button>
-            <button className="flex-1 rounded-[0.375rem] border-2 border-[#1C1C1C] bg-white font-sans text-[#1C1C1C] text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-3 transition-all hover:bg-[#1C1C1C] hover:text-white">
-              Request a Quote
-            </button>
-          </div>
         </div>
       </div>
     </section>

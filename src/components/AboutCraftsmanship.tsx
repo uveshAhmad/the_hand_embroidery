@@ -1,4 +1,3 @@
-import secondAbout from '../assets/about/secondAbout.svg';
 
 export default function AboutCraftsmanship() {
   return (
@@ -8,7 +7,7 @@ export default function AboutCraftsmanship() {
           {/* Left - Image */}
           <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src={secondAbout}
+              src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404917/secondAbout_zzewv1.svg"
               alt="Close-up of hand embroidery — gold threads and red bead detail on fabric"
               className="w-full h-auto object-cover"
             />

@@ -15,7 +15,7 @@ export default function CallToAction() {
           {' '}artwork — designed, stitched, and finished with care.
         </p>
         <Link
-          to="/enquire-now"
+          to="/contact"
           className="inline-block rounded-[0.375rem] bg-[#FFCB3E] font-sans text-[#1C1C1C] text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-4 transition-all shadow-lg hover:shadow-xl hover:scale-105"
         >
           REQUEST A CUSTOM DESIGN

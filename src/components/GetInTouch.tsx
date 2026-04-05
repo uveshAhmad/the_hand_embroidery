@@ -66,7 +66,7 @@ export default function GetInTouch() {
                 name="email"
                 type="email"
                 required
-                placeholder="your@email.com"
+                placeholder="contact@thehandembroidery.com"
                 value={formData.email}
                 onChange={handleChange}
                 className="w-full px-4 py-3 rounded-lg border border-[#E0E0E0] bg-[#FAFAFA] font-sans text-[#1C1C1C] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#A07A5C]/30 focus:border-[#A07A5C]"
@@ -82,7 +82,7 @@ export default function GetInTouch() {
                 name="phone"
                 type="tel"
                 required
-                placeholder="+91 XXXXX XXXXX"
+                placeholder="+918810561006"
                 value={formData.phone}
                 onChange={handleChange}
                 className="w-full px-4 py-3 rounded-lg border border-[#E0E0E0] bg-[#FAFAFA] font-sans text-[#1C1C1C] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-[#A07A5C]/30 focus:border-[#A07A5C]"

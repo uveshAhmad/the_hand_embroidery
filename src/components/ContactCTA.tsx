@@ -1,5 +1,4 @@
-import { Link } from 'react-router-dom';
-import secondAbout from '../assets/about/secondAbout.svg';
+
 
 export default function ContactCTA() {
   return (
@@ -18,27 +17,12 @@ export default function ContactCTA() {
             <p className="font-sans text-[#555555] text-base md:text-lg leading-relaxed">
               Whether you're exploring a custom embroidery piece, collaborating on a collection, or simply have a question, we'd love to hear from you.
             </p>
-            <div className="flex flex-wrap gap-4 pt-2">
-              <Link
-                to="/contact"
-                className="inline-flex items-center gap-2 px-6 py-4 rounded-xl bg-[#FFC640] hover:bg-[#F5BC2E] text-[#1C1C1C] font-sans font-semibold text-base transition-colors"
-              >
-                Start a Conversation
-                <span aria-hidden>→</span>
-              </Link>
-              <Link
-                to="/enquire-now"
-                className="inline-flex items-center gap-2 px-6 py-4 rounded-xl border-2 border-[#1C1C1C] bg-transparent hover:bg-[#1C1C1C] text-[#1C1C1C] hover:text-white font-sans font-semibold text-base transition-colors"
-              >
-                Request Custom Work
-              </Link>
-            </div>
           </div>
 
           {/* Right - Image */}
           <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src={secondAbout}
+              src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404917/secondAbout_zzewv1.svg"
               alt="Intricate gold embroidery detail on fabric"
               className="w-full h-auto object-cover"
             />

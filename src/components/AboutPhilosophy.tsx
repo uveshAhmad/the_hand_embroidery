@@ -1,4 +1,3 @@
-import bp from '../assets/about/bp.svg';
 
 const PRINCIPLES = [
   'Human craftsmanship over machines',
@@ -35,7 +34,7 @@ export default function AboutPhilosophy() {
           {/* Right - Image */}
           <div className="rounded-xl overflow-hidden shadow-md">
             <img
-              src={bp}
+              src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404914/bp_kpue37.svg"
               alt="Embroidered detail on fabric — craftsmanship in focus"
               className="w-full h-auto object-cover"
             />

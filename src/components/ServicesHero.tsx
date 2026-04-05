@@ -1,4 +1,5 @@
-import homeImage from '../assets/services/home.svg';
+import { Link } from 'react-router-dom';
+
 
 export default function ServicesHero() {
   return (
@@ -6,7 +7,7 @@ export default function ServicesHero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src={homeImage}
+          src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404870/home_bghbsq.svg"
           alt="Hand embroidery work"
           className="w-full h-full object-cover"
         />
@@ -37,9 +38,9 @@ export default function ServicesHero() {
         </p>
 
         {/* Call-to-Action Button */}
-        <button className="rounded-[0.375rem] bg-[#FFCB3E] font-sans text-[#1C1C1C] text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-4 transition-all shadow-lg hover:shadow-xl hover:scale-105">
+        <Link to="/contact" className="inline-block rounded-[0.375rem] bg-[#FFCB3E] font-sans text-[#1C1C1C] text-center text-base font-medium leading-[1.5rem] tracking-[0.05rem] uppercase px-8 py-4 transition-all shadow-lg hover:shadow-xl hover:scale-105">
           ENQUIRES NOW
-        </button>
+        </Link>
       </div>
     </section>
   );

@@ -1,7 +1,3 @@
-import processImg1 from '../assets/processImg1.svg'
-import processImg2 from '../assets/processImg2.svg'
-import processImg3 from '../assets/processImg3.svg'
-import processImg4 from '../assets/processImg4.svg'
 
 interface ProcessStep {
   step: number;
@@ -17,7 +13,7 @@ const steps: ProcessStep[] = [
     title: 'Design Concept',
     description:
       'Each creation begins with a sketch or idea developed collaboratively with care and creativity.',
-    image: `${processImg1}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404963/processImg1_mqbssa.svg`,
     imageAlt: 'Hands holding an embroidery hoop with a golden embroidered design',
   },
   {
@@ -25,7 +21,7 @@ const steps: ProcessStep[] = [
     title: 'Material Selection',
     description:
       'We choose premium fabrics, threads, and embellishments to ensure depth, durability, and elegance.',
-    image: `${processImg2}`,  
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404959/processImg2_jm02fz.svg`,  
     imageAlt: 'Colorful thread spools and fabrics arranged on a wooden table',
   },
   {
@@ -33,14 +29,14 @@ const steps: ProcessStep[] = [
     title: 'Hand Embroidery',
     description:
       'Skilled artisans bring the design to life using time honored embroidery techniques.',
-    image: `${processImg3}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404961/processImg3_u3sytt.svg`,
     imageAlt: 'Artisan working on embroidery at a desk',
   },
   {
     step: 4,
     title: 'Finishing & Quality Check',
     description: 'Every piece is inspected, refined, and finished with precision.',
-    image: `${processImg4}`,
+    image: `https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404965/processImg4_vfgitj.svg`,
     imageAlt: 'Hands holding an embroidered butterfly design in a hoop',
   },
 ];
