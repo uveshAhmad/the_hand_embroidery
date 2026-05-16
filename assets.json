@@ -10,7 +10,6 @@
   "services": {
     "home.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404870/home_bghbsq.svg"
   },
-
   "whatWeCreate": {
     "img1.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404803/img1_o5djtl.svg",
     "img2.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404801/img2_a1s8w9.svg",
@@ -27,5 +26,22 @@
   "processImg2.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404959/processImg2_jm02fz.svg",
   "processImg3.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404961/processImg3_u3sytt.svg",
   "processImg4.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404965/processImg4_vfgitj.svg",
-  "storyImg.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404969/storyImg_rzim8t.svg"
+  "storyImg.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404969/storyImg_rzim8t.svg",
+  "servicePage": {
+    "servie1.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948475/WhatsApp_Image_2026-02-03_at_10.52_1_eytqho.png",
+    "servie2.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948473/image_26_cqahy6.png",
+    "servie3.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948473/WhatsApp_Image_2026-02-03_at_10.53.02_AM_3_2_qj8v0w.png",
+    "servie4.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948472/WhatsApp_Image_2026-02-03_at_10.53.00_AM_2_1_fn7te2.png",
+    "servie5.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948472/image_28_fez2by.png",
+    "servie6.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948472/image_27_fqecv0.png",
+    "servie7.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948471/image_24_upet8t.png",
+    "servie8.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948471/image_25_qwd6na.png",
+    "servie9.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948471/image_21_hazknd.png",
+    "servie10.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948471/image_23_vtn7sl.png",
+    "servie11.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948471/image_20_j43r8d.png",
+    "servie12.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948470/image_22_ggbe7s.png",
+    "servie_13.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948470/image_19_ul8cbm.png",
+    "servie_14.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948469/image_18_ymh2wp.png",
+    "servie_15.svg": "https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1778948414/image_17_nq13ht.png"
+  }
 }

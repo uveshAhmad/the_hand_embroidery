@@ -1,6 +1,7 @@
+import assets from '../../assets.json';
+
 export default function ServicesWeOffer() {
-  const patchCount = 15;
-  const patchSlots = Array.from({ length: patchCount }, (_, i) => i + 1);
+  const patchImages = Object.values(assets.servicePage);
 
   return (
     <section className="py-16 md:py-24 bg-[#F6F1EA] border-l border-[#D1D1D1]">
@@ -12,15 +13,22 @@ export default function ServicesWeOffer() {
 
         {/* 4x4 Grid */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
-          {patchSlots.map((i) => (
+          {patchImages.map((imageUrl, index) => (
             <div
-              key={i}
+              key={index}
               className="aspect-square bg-white rounded-sm border border-[#E8E4DE] overflow-hidden flex items-center justify-center shadow-sm"
             >
-              {/* Placeholder: replace with <img src={...} alt="..." /> when you have patch assets */}
-              <div className="w-full h-full bg-[#F6F1EA] flex items-center justify-center text-[#A07A5C]/40 font-serif text-sm">
-                Patch {i}
-              </div>
+              {imageUrl ? (
+                <img 
+                  src={imageUrl as string} 
+                  alt={`Service patch ${index + 1}`} 
+                  className="w-full h-full object-contain p-4 transition-transform duration-500 hover:scale-110"
+                />
+              ) : (
+                <div className="w-full h-full bg-[#F6F1EA] flex items-center justify-center text-[#A07A5C]/40 font-serif text-sm">
+                  Patch {index + 1}
+                </div>
+              )}
             </div>
           ))}
 
