@@ -63,6 +63,8 @@ const services: ServiceItem[] = [
   },
 ];
 
+import { Link } from 'react-router-dom';
+
 export default function WhatWeCreate() {
   return (
     <section className="py-16 md:py-24 bg-[#F6F1EA]">
@@ -162,6 +164,16 @@ export default function WhatWeCreate() {
               </div>
             ))}
           </div>
+        </div>
+
+        {/* CTA Button */}
+        <div className="flex justify-center mt-8 md:mt-12">
+          <Link
+            to="/services#services-we-offer"
+            className="inline-block px-8 py-3 rounded-md bg-[#FFCB3E] hover:bg-[#e5b637] text-[#1C1C1C] font-sans font-medium text-sm tracking-wider uppercase transition-colors shadow-sm"
+          >
+            SEE ALL DESIGN
+          </Link>
         </div>
 
       </div>

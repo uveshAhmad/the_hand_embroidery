@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom';
 import assets from '../../assets.json';
 
 export default function ServicesWeOffer() {
   const patchImages = Object.values(assets.servicePage);
 
   return (
-    <section className="py-16 md:py-24 bg-[#F6F1EA] border-l border-[#D1D1D1]">
+    <section id="services-we-offer" className="py-16 md:py-24 bg-[#F6F1EA] border-l border-[#D1D1D1]">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Title */}
         <h2 className="font-serif text-[#1C1C1C] text-3xl md:text-4xl lg:text-5xl font-medium text-center mb-12">
@@ -33,14 +34,14 @@ export default function ServicesWeOffer() {
           ))}
 
           {/* More Custom Design+ CTA */}
-          <a
-            href="#enquire"
+          <Link
+            to="/contact"
             className="aspect-square bg-[#E8E4DE] hover:bg-[#DED8D0] border border-[#D1D1D1] rounded-sm flex items-center justify-center transition-colors group"
           >
             <span className="font-serif text-[#1C1C1C] text-base md:text-lg text-center px-4 group-hover:text-[#A07A5C] transition-colors">
               More Custom Design+
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

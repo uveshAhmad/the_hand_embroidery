@@ -1,4 +1,5 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
+import assets from '../../assets.json';
 
 const SERVICE_TAGS = [
   'Antique textile repair',
@@ -129,28 +130,14 @@ export default function RestorationReEmbroidery() {
           <div
             className="absolute inset-0 bg-[#E5E2DD]"
             style={{
-              backgroundImage: `repeating-linear-gradient(
-                90deg,
-                transparent,
-                transparent 2px,
-                rgba(0,0,0,0.02) 2px,
-                rgba(0,0,0,0.02) 4px
-              )`,
               clipPath: `inset(0 ${100 - sliderPosition}% 0 0)`,
             }}
           >
-            {/* Placeholder embroidery (leaf) - replace with real image when available */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div
-                className="w-32 h-40 md:w-40 md:h-52 opacity-90"
-                style={{
-                  background: `radial-gradient(ellipse 60% 70% at 50% 50%, rgba(59, 130, 246, 0.5), rgba(29, 78, 216, 0.4))`,
-                  clipPath:
-                    'polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)',
-                  boxShadow: '0 0 0 1px rgba(29, 78, 216, 0.2)',
-                }}
-              />
-            </div>
+            <img 
+              src={assets.afterImage.afterImage1} 
+              alt="After restoration" 
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* AFTER label - inside the "after" region */}

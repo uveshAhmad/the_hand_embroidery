@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function CustomProjectsWelcome() {
   return (
     <section className="py-16 md:py-24 bg-[#F8F6F2] border-l border-[#D1D1D1]">
@@ -11,12 +13,12 @@ export default function CustomProjectsWelcome() {
         <p className="font-sans text-[#555555] text-base md:text-lg leading-relaxed mb-12 max-w-xl mx-auto">
           Whether you need a single embroidered heirloom or a full collection, we approach every project with the same care and respect for craft.
         </p>
-        <a
-          href="#enquire"
+        <Link
+          to="/contact"
           className="inline-block px-8 py-4 rounded-xl bg-[#FFC640] hover:bg-[#F5BC2E] text-[#1C1C1C] font-sans font-semibold text-base transition-colors"
         >
           Start Your Custom Project
-        </a>
+        </Link>
       </div>
     </section>
   );

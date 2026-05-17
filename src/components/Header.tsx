@@ -12,14 +12,14 @@ export default function Header() {
           {/* Logo Section */}
           <Link to="/" className="flex items-center">
             <div className="flex items-center space-x-3">
-              <img 
-                src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404956/logo_udcqzd.svg" 
-                alt="Hand Embroidery Logo" 
+              <img
+                src="https://res.cloudinary.com/dk7dydmvc/image/upload/q_auto/f_auto/v1775404956/logo_udcqzd.svg"
+                alt="Hand Embroidery Logo"
                 className="w-10 h-10"
               />
               <div className="h-10 w-px bg-amber-700/30"></div>
               <div className="flex flex-col">
-                <span 
+                <span
                   className="font-sans uppercase font-normal text-[#303131] text-[0.435rem] tracking-[0.12181rem] text-brand-label"
                   style={{
                     lineHeight: '121.162%'
@@ -27,12 +27,12 @@ export default function Header() {
                 >
                   THE
                 </span>
-                <span 
+                <span
                   className="font-vintage-culture text-black text-[0.63975rem] font-normal leading-[100.075%] tracking-[0.032rem]"
                 >
                   Hand Embroidery
                 </span>
-                <span 
+                <span
                   className="font-sans uppercase font-normal text-[#303131] text-[0.435rem] tracking-[0.12181rem] text-brand-label"
                   style={{
                     lineHeight: '121.162%'
@@ -58,8 +58,8 @@ export default function Header() {
             <Link to="/contact" className="font-serif text-black text-center text-base font-normal text-brand-label">
               Contact Us
             </Link>
-            <Link 
-              to="/enquire-now"
+            <Link
+              to="/contact"
               className="font-sans text-[#1C1C1C] text-center text-[0.82038rem] font-medium leading-[1.23056rem] tracking-[0.041rem] uppercase text-brand-label rounded-[0.30763rem] px-6 py-2.5 bg-gradient-to-r from-[#FFCB3E] to-[#FFC036] transition-colors inline-block"
             >
               ENQUIRE NOW
@@ -80,20 +80,21 @@ export default function Header() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <nav className="flex flex-col space-y-4">
-              <Link to="/" className="font-serif text-black text-center text-base font-normal text-brand-label">
+              <Link to="/" onClick={() => setIsMenuOpen(false)} className="font-serif text-black text-center text-base font-normal text-brand-label">
                 Home
               </Link>
-              <Link to="/services" className="font-serif text-black text-center text-base font-normal text-brand-label">
+              <Link to="/services" onClick={() => setIsMenuOpen(false)} className="font-serif text-black text-center text-base font-normal text-brand-label">
                 Services
               </Link>
-              <Link to="/about" className="font-serif text-black text-center text-base font-normal text-brand-label">
+              <Link to="/about" onClick={() => setIsMenuOpen(false)} className="font-serif text-black text-center text-base font-normal text-brand-label">
                 About Us
               </Link>
-              <Link to="/contact" className="font-serif text-black text-center text-base font-normal text-brand-label">
+              <Link to="/contact" onClick={() => setIsMenuOpen(false)} className="font-serif text-black text-center text-base font-normal text-brand-label">
                 Contact Us
               </Link>
-              <Link 
-                to="/enquire-now"
+              <Link
+                to="/contact"
+                onClick={() => setIsMenuOpen(false)}
                 className="font-sans text-[#1C1C1C] text-center text-[0.82038rem] font-medium leading-[1.23056rem] tracking-[0.041rem] uppercase text-brand-label rounded-[0.30763rem] px-6 py-2.5 bg-gradient-to-r from-[#FFCB3E] to-[#FFC036] transition-colors w-full inline-block text-center"
               >
                 ENQUIRE NOW
